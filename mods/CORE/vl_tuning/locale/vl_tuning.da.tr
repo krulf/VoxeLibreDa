@@ -1,0 +1,25 @@
+# textdomain: vl_tuning
+# Danish prototype translation; not native-speaker reviewed.
+# Generated for local testing; see README.md in the bundle.
+Admin tool to tune settings and game rules=Admin værktøj til at tune indstillinger og spilleregler
+<setting> <value>=<setting> <value>
+Usage: /tune <setting> <value>=Anvendelse: /tune <indstilling> <værdi>
+Setting @1 doesn't exist=Indstilling @1 findes ikke
+Admin tool to view settings and game rules=Admin værktøj til at vise indstillinger og regler i spillet
+<setting>=<indstilling>
+Display or set customizable options=Vis eller sæt tilpassede indstillinger
+<rule> [<value>]=<regel> [<værdi>]
+Usage: /gamerule <rule> [<value>]=Anvendelse: /gamerule <regel> [<værdi>]
+Game rule @1 doesn't exist=Spilregel @1 findes ikke
+##[ settings.lua ]##
+Allows creative players to kill mobs with only a single punch.=Giver kreative spillere mulighed for at dræbe mobs med et enkelt slag.
+Prevents beds/respawn anchors from exploding in other dimensions.=Forhindrer sengene/respawn ankre i at eksplodere i andre dimensioner.
+##[ gui.lua ]##
+Player @1 is not online.=Spiller @1 er ikke online.
+You need the server privilege to edit other players' settings.=Du skal have server privilegiet for at redigere andre spilleres indstillinger.
+Player: @1=Spiller: @1
+Your player settings were changed by @1.=Dine spiller-indstillinger blev ændret af @1.
+
+Open personal settings, or another player's settings if you have the server privilege=Åbn personlige indstillinger eller en anden spillers indstillinger, hvis du har server privilegiet
+
+[player_name]=[spiller_navn]
